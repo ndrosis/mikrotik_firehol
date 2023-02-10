@@ -1,6 +1,6 @@
 /ip firewall address-list
-# add list=firehol_level1 address="0.0.0.0/8"
-# add list=firehol_level1 address="10.0.0.0/8"
+add list=firehol_level1 address="0.0.0.0/8"
+add list=firehol_level1 address="10.0.0.0/8"
 add list=firehol_level1 address="100.64.0.0/10"
 add list=firehol_level1 address="101.101.96.0/22"
 add list=firehol_level1 address="101.1.16.0/20"
